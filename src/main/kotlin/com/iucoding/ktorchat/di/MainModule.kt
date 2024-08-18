@@ -1,7 +1,7 @@
 package com.iucoding.ktorchat.di
 
+import com.iucoding.ktorchat.data.MessageDataSource
 import com.iucoding.ktorchat.data.MessageDataSourceImpl
-import com.iucoding.ktorchat.data.model.MessageDataSource
 import com.iucoding.ktorchat.room.RoomController
 import org.koin.dsl.module
 import org.litote.kmongo.coroutine.CoroutineDatabase

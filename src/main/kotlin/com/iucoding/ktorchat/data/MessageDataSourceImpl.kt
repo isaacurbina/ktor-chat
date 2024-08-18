@@ -1,7 +1,6 @@
 package com.iucoding.ktorchat.data
 
 import com.iucoding.ktorchat.data.model.Message
-import com.iucoding.ktorchat.data.model.MessageDataSource
 import org.litote.kmongo.coroutine.CoroutineDatabase
 
 class MessageDataSourceImpl(

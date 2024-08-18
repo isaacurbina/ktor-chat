@@ -50,9 +50,12 @@ fun Route.chatSocket(roomController: RoomController) {
 
 fun Route.getAllMessages(roomController: RoomController) {
     get(path = "/messages") {
+        val messages = roomController.getAllMessages()
         call.respond(
             status = HttpStatusCode.OK,
-            message = roomController.getAllMessages()
+            message = messages.ifEmpty {
+                "[]"
+            }
         )
     }
 }

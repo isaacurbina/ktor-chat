@@ -1,4 +1,6 @@
-package com.iucoding.ktorchat.data.model
+package com.iucoding.ktorchat.data
+
+import com.iucoding.ktorchat.data.model.Message
 
 interface MessageDataSource {
 

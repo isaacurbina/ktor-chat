@@ -1,7 +1,7 @@
 package com.iucoding.ktorchat.room
 
+import com.iucoding.ktorchat.data.MessageDataSource
 import com.iucoding.ktorchat.data.model.Message
-import com.iucoding.ktorchat.data.model.MessageDataSource
 import io.ktor.websocket.Frame
 import io.ktor.websocket.WebSocketSession
 import io.ktor.websocket.close
